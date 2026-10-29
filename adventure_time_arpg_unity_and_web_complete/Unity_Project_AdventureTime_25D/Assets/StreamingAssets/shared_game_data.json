@@ -1,0 +1,335 @@
+{
+  "ok": true,
+  "role": "player",
+  "published": {
+    "version": "2.0",
+    "versionNumber": 2,
+    "publishedAt": "2026-10-29 03:38:55 UTC",
+    "author": "Unity Map Studio",
+    "changelog": "Dữ liệu dùng chung giữa Unity và Web (/play): 4 Chương (12 Ải), 5 Nhân vật, 27 Trang bị.",
+    "balanceConfig": {
+      "enemyHpMultiplier": 1.0,
+      "enemyAtkMultiplier": 1.0,
+      "expMultiplier": 1.0,
+      "goldMultiplier": 1.0,
+      "lootDropChance": 0.45,
+      "startingPotions": 3,
+      "potionHealPercent": 0.45
+    },
+    "heroes": [
+      {
+        "id": "finn",
+        "name": "Finn the Human",
+        "role": "Kiếm Sĩ Cận Chiến Liên Hoàn (Chém Kiếm 3 Nhịp & Lướt Kiếm Khí)",
+        "baseHp": 175,
+        "baseEn": 100,
+        "baseAtk": 29,
+        "baseDef": 0.15,
+        "baseSpd": 220,
+        "baseCrit": 0.16,
+        "dashCd": 1.0,
+        "skill1": {
+          "name": "Lướt Chém Kiếm Khí Bán Nguyệt",
+          "cost": 20,
+          "cd": 3.2,
+          "mult": 1.95,
+          "desc": "Lướt nhanh theo hướng nhìn, chém kiếm đôi và phóng luồng kiếm khí bán nguyệt xuyên thấu quái."
+        },
+        "ult": {
+          "name": "Thánh Kiếm Hoàng Kim Bão Tố",
+          "cost": 45,
+          "cd": 8.0,
+          "mult": 3.35,
+          "desc": "Giáng 5 Đại Kiếm Hoàng Kim gây Choáng (2.5s) toàn bộ quái xung quanh và tăng +40% Tốc đánh trong 6s."
+        }
+      },
+      {
+        "id": "jake",
+        "name": "Jake the Dog",
+        "role": "Đấu Sĩ Co Giãn (Đấm Vươn Dài Gom Quái & Hóa Khổng Lồ)",
+        "baseHp": 230,
+        "baseEn": 95,
+        "baseAtk": 31,
+        "baseDef": 0.2,
+        "baseSpd": 200,
+        "baseCrit": 0.12,
+        "dashCd": 1.05,
+        "skill1": {
+          "name": "Nắm Đấm Vươn Dài Quét Ngang",
+          "cost": 22,
+          "cd": 3.6,
+          "mult": 2.05,
+          "desc": "Vươn dài cánh tay khổng lồ 220px đấm quét ngang, kéo gom quái về phía trước và Làm Chậm 55% trong 3.5s."
+        },
+        "ult": {
+          "name": "Hóa Khổng Lồ Địa Chấn 3 Nhịp",
+          "cost": 45,
+          "cd": 8.5,
+          "mult": 3.5,
+          "desc": "Hóa Khổng Lồ (1.45×) trong 5s (+50% Giáp), tự động dậm đất 3 nhịp tạo sóng chấn động làm choáng diện rộng."
+        }
+      },
+      {
+        "id": "marceline",
+        "name": "Marceline",
+        "role": "Nữ Hoàng Ma Cà Rồng (Đàn Dơi Truy Kích & Hút Máu Hồi Phục)",
+        "baseHp": 155,
+        "baseEn": 120,
+        "baseAtk": 30,
+        "baseDef": 0.12,
+        "baseSpd": 235,
+        "baseCrit": 0.22,
+        "dashCd": 0.95,
+        "skill1": {
+          "name": "Đàn Dơi Huyết Hồi Máu",
+          "cost": 22,
+          "cd": 3.4,
+          "mult": 1.8,
+          "desc": "Biến ảnh trong sương đêm, phóng 5 Dơi Ma Cà Rồng tự động đuổi cắn quái và hút máu hồi HP trực tiếp cho Marceline."
+        },
+        "ult": {
+          "name": "Kết Giới Huyết Nguyệt Nightosphere",
+          "cost": 48,
+          "cd": 8.2,
+          "mult": 3.4,
+          "desc": "Dựng vòng Huyết Nguyệt đi theo Marceline suốt 5s, rút máu quái mỗi 0.5s để hồi HP và gây Suy Yếu (+25% DMG)."
+        }
+      },
+      {
+        "id": "fp",
+        "name": "Flame Princess",
+        "role": "Công Chúa Lửa (Thiêu Đốt Gây Cháy DoT & Bão Dung Nham)",
+        "baseHp": 145,
+        "baseEn": 135,
+        "baseAtk": 34,
+        "baseDef": 0.1,
+        "baseSpd": 220,
+        "baseCrit": 0.2,
+        "dashCd": 1.0,
+        "skill1": {
+          "name": "Bão Cột Lửa & Thảm Dung Nham",
+          "cost": 22,
+          "cd": 3.4,
+          "mult": 1.95,
+          "desc": "Phóng 3 cột lửa liên hoàn để lại 3 Vùng Dung Nham cháy rực suốt 4.5s, gây hiệu ứng Cháy (Burn DoT) rút máu liên tục."
+        },
+        "ult": {
+          "name": "Phượng Hoàng Lửa Thiên Thạch",
+          "cost": 50,
+          "cd": 8.5,
+          "mult": 3.7,
+          "desc": "Hóa Phượng Hoàng Lửa lao tới phát nổ đại hồng liên, tạo hố dung nham lớn và bắn 8 cầu lửa gây Cháy 8 hướng."
+        }
+      },
+      {
+        "id": "pb",
+        "name": "Princess Bubblegum",
+        "role": "Công Chúa Kẹo Cao Su (Gọi Lính Chuối Hộ Vệ & Khoa Học Hoàng Gia)",
+        "baseHp": 152,
+        "baseEn": 145,
+        "baseAtk": 28,
+        "baseDef": 0.13,
+        "baseSpd": 215,
+        "baseCrit": 0.18,
+        "dashCd": 1.05,
+        "skill1": {
+          "name": "Triệu Hồi Lính Chuối Hộ Vệ & Bom Keo",
+          "cost": 24,
+          "cd": 4.2,
+          "mult": 1.7,
+          "desc": "Gọi 2 Lính Chuối Hộ Vệ (Banana Guards) cầm giáo tự động truy kích đánh quái trong 10s, kèm ném Bom Keo Trói Chân (2s)."
+        },
+        "ult": {
+          "name": "Quân Đoàn Hộ Vệ & Laser Vệ Tinh",
+          "cost": 46,
+          "cd": 8.2,
+          "mult": 3.35,
+          "desc": "Tạo Khiên Năng Lượng Hoàng Gia, triệu hồi thêm 2 Lính Hộ Vệ Tinh Nhuệ và gọi Tia Laser Vệ Tinh quét mục tiêu 3.2s."
+        }
+      }
+    ],
+    "lootTemplates": [
+      {
+        "id": "wep_0",
+        "name": "Kiếm Vàng Scarlet",
+        "slot": "weapon",
+        "col": 0,
+        "row": 0,
+        "atk": 16,
+        "hp": 0,
+        "def": 0,
+        "spd": 0,
+        "crit": 0.04
+      },
+      {
+        "id": "wep_1",
+        "name": "Kiếm Rễ Cây (Root Sword)",
+        "slot": "weapon",
+        "col": 1,
+        "row": 0,
+        "atk": 20,
+        "hp": 20,
+        "def": 0.02,
+        "spd": 0,
+        "crit": 0.05
+      },
+      {
+        "id": "wep_2",
+        "name": "Kiếm Máu Quỷ (Demon Blood)",
+        "slot": "weapon",
+        "col": 2,
+        "row": 0,
+        "atk": 26,
+        "hp": 15,
+        "def": 0,
+        "spd": 5,
+        "crit": 0.08
+      },
+      {
+        "id": "wep_3",
+        "name": "Kiếm Cỏ (Grass Sword)",
+        "slot": "weapon",
+        "col": 3,
+        "row": 0,
+        "atk": 29,
+        "hp": 0,
+        "def": 0,
+        "spd": 16,
+        "crit": 0.14
+      },
+      {
+        "id": "wep_4",
+        "name": "Finn Sword",
+        "slot": "weapon",
+        "col": 4,
+        "row": 0,
+        "atk": 34,
+        "hp": 30,
+        "def": 0.04,
+        "spd": 10,
+        "crit": 0.12
+      },
+      {
+        "id": "wep_6",
+        "name": "Kiếm Mắt Quỷ (Night Sword)",
+        "slot": "weapon",
+        "col": 6,
+        "row": 0,
+        "atk": 45,
+        "hp": 35,
+        "def": 0.05,
+        "spd": 12,
+        "crit": 0.16
+      },
+      {
+        "id": "wep_7",
+        "name": "Đàn Rìu Bass Axe",
+        "slot": "weapon",
+        "col": 7,
+        "row": 0,
+        "atk": 32,
+        "hp": 25,
+        "def": 0.03,
+        "spd": 10,
+        "crit": 0.12
+      },
+      {
+        "id": "wep_8",
+        "name": "Súng Khoa Học Plasma",
+        "slot": "weapon",
+        "col": 8,
+        "row": 0,
+        "atk": 28,
+        "hp": 10,
+        "def": 0.02,
+        "spd": 12,
+        "crit": 0.14
+      },
+      {
+        "id": "wep_9",
+        "name": "Trượng Lửa Hoàng Gia",
+        "slot": "weapon",
+        "col": 9,
+        "row": 0,
+        "atk": 35,
+        "hp": 10,
+        "def": 0,
+        "spd": 8,
+        "crit": 0.15
+      },
+      {
+        "id": "arm_0",
+        "name": "Mũ Gấu & Balo Xanh Finn",
+        "slot": "armor",
+        "col": 0,
+        "row": 1,
+        "atk": 4,
+        "hp": 40,
+        "def": 0.06,
+        "spd": 8,
+        "crit": 0
+      },
+      {
+        "id": "arm_2",
+        "name": "Bộ Giáp Jake Suit",
+        "slot": "armor",
+        "col": 2,
+        "row": 1,
+        "atk": 14,
+        "hp": 110,
+        "def": 0.14,
+        "spd": 6,
+        "crit": 0.04
+      },
+      {
+        "id": "arm_7",
+        "name": "Giáp Xương Chúa Tể Lich",
+        "slot": "armor",
+        "col": 7,
+        "row": 1,
+        "atk": 26,
+        "hp": 90,
+        "def": 0.12,
+        "spd": 8,
+        "crit": 0.1
+      },
+      {
+        "id": "acc_0",
+        "name": "Sách Cổ The Enchiridion",
+        "slot": "accessory",
+        "col": 0,
+        "row": 2,
+        "atk": 15,
+        "hp": 50,
+        "def": 0.05,
+        "spd": 10,
+        "crit": 0.08
+      },
+      {
+        "id": "acc_1",
+        "name": "Vương Miện Hồng Ngọc Vua Băng",
+        "slot": "accessory",
+        "col": 1,
+        "row": 2,
+        "atk": 20,
+        "hp": 30,
+        "def": 0.04,
+        "spd": 8,
+        "crit": 0.09
+      },
+      {
+        "id": "acc_6",
+        "name": "Băng Game Vàng 8-Bit BMO",
+        "slot": "accessory",
+        "col": 6,
+        "row": 2,
+        "atk": 15,
+        "hp": 20,
+        "def": 0,
+        "spd": 22,
+        "crit": 0.12
+      }
+    ],
+    "stageMapOverrides": {}
+  }
+}

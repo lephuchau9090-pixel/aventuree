@@ -1,0 +1,513 @@
+{
+  "cellSize": [
+    64,
+    64
+  ],
+  "standingHeightPx": 58,
+  "footBaselineY": 60,
+  "unityPivotNormalized": [
+    0.5,
+    0.0625
+  ],
+  "hitboxRadiusPx": 18,
+  "hurtboxSizePx": [
+    34,
+    52
+  ],
+  "heroes": {
+    "finn": {
+      "row": 0,
+      "verifiedStandingHeights": [
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58
+      ],
+      "verifiedFootBaselines": [
+        60
+      ]
+    },
+    "jake": {
+      "row": 1,
+      "verifiedStandingHeights": [
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58
+      ],
+      "verifiedFootBaselines": [
+        60
+      ]
+    },
+    "marceline": {
+      "row": 2,
+      "verifiedStandingHeights": [
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58
+      ],
+      "verifiedFootBaselines": [
+        60
+      ]
+    },
+    "flame_princess": {
+      "row": 3,
+      "verifiedStandingHeights": [
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58
+      ],
+      "verifiedFootBaselines": [
+        60
+      ]
+    },
+    "princess_bubblegum": {
+      "row": 4,
+      "verifiedStandingHeights": [
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58
+      ],
+      "verifiedFootBaselines": [
+        60
+      ]
+    },
+    "the_lich": {
+      "row": 5,
+      "verifiedStandingHeights": [
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        57,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58
+      ],
+      "verifiedFootBaselines": [
+        60
+      ]
+    }
+  },
+  "enemies": {
+    "enemy_row_00": {
+      "row": 0,
+      "verifiedStandingHeights": [
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58
+      ],
+      "verifiedFootBaselines": [
+        60
+      ]
+    },
+    "enemy_row_01": {
+      "row": 1,
+      "verifiedStandingHeights": [
+        58,
+        58,
+        58,
+        57,
+        58,
+        58,
+        58,
+        58
+      ],
+      "verifiedFootBaselines": [
+        60
+      ]
+    },
+    "enemy_row_02": {
+      "row": 2,
+      "verifiedStandingHeights": [
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58
+      ],
+      "verifiedFootBaselines": [
+        60
+      ]
+    },
+    "enemy_row_03": {
+      "row": 3,
+      "verifiedStandingHeights": [
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58
+      ],
+      "verifiedFootBaselines": [
+        60
+      ]
+    },
+    "enemy_row_04": {
+      "row": 4,
+      "verifiedStandingHeights": [
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58
+      ],
+      "verifiedFootBaselines": [
+        60
+      ]
+    },
+    "enemy_row_05": {
+      "row": 5,
+      "verifiedStandingHeights": [
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58
+      ],
+      "verifiedFootBaselines": [
+        60
+      ]
+    },
+    "enemy_row_06": {
+      "row": 6,
+      "verifiedStandingHeights": [
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58
+      ],
+      "verifiedFootBaselines": [
+        60
+      ]
+    },
+    "enemy_row_07": {
+      "row": 7,
+      "verifiedStandingHeights": [
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58
+      ],
+      "verifiedFootBaselines": [
+        60
+      ]
+    },
+    "enemy_row_08": {
+      "row": 8,
+      "verifiedStandingHeights": [
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58
+      ],
+      "verifiedFootBaselines": [
+        60
+      ]
+    },
+    "enemy_row_09": {
+      "row": 9,
+      "verifiedStandingHeights": [
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58
+      ],
+      "verifiedFootBaselines": [
+        60
+      ]
+    },
+    "enemy_row_10": {
+      "row": 10,
+      "verifiedStandingHeights": [
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58
+      ],
+      "verifiedFootBaselines": [
+        60
+      ]
+    },
+    "enemy_row_11": {
+      "row": 11,
+      "verifiedStandingHeights": [
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58
+      ],
+      "verifiedFootBaselines": [
+        60
+      ]
+    },
+    "enemy_row_12": {
+      "row": 12,
+      "verifiedStandingHeights": [
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58
+      ],
+      "verifiedFootBaselines": [
+        60
+      ]
+    },
+    "enemy_row_13": {
+      "row": 13,
+      "verifiedStandingHeights": [
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58
+      ],
+      "verifiedFootBaselines": [
+        60
+      ]
+    },
+    "enemy_row_14": {
+      "row": 14,
+      "verifiedStandingHeights": [
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58
+      ],
+      "verifiedFootBaselines": [
+        60
+      ]
+    },
+    "enemy_row_15": {
+      "row": 15,
+      "verifiedStandingHeights": [
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58
+      ],
+      "verifiedFootBaselines": [
+        60
+      ]
+    },
+    "enemy_row_16": {
+      "row": 16,
+      "verifiedStandingHeights": [
+        58,
+        58,
+        58,
+        56,
+        58,
+        58,
+        58,
+        58
+      ],
+      "verifiedFootBaselines": [
+        60
+      ]
+    },
+    "enemy_row_17": {
+      "row": 17,
+      "verifiedStandingHeights": [
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58,
+        58
+      ],
+      "verifiedFootBaselines": [
+        60
+      ]
+    }
+  }
+}
